@@ -1,0 +1,31 @@
+"""
+ID = Nominal
+yeah_birth = Interval
+education = Ordinal
+marital_status = Nominal
+income = Ratio
+Kidhome = Ratio
+Teenhome = Ratio
+Dt_Customer = Interval
+Recency = Ratio
+MntWines = Ratio
+MntFuits = Ratio
+MntMeatProducts = Ratio
+MntFishProducts = Ratio
+MntSweetProducts = Ratio
+MntGoldProds = Ratio
+NumDealsPurchases = Ratio
+NumWebPurchases = Ratio
+NumCatalogPurchases = Ratio
+NumStorePurchases = Ratio
+NumWebVisitsMonth = Ratio
+AcceptedCmp3 = Nominal
+AcceptedCmp4 = Nominal
+AcceptedCmp5 = Nominal
+AcceptedCmp1 = Nominal
+AcceptedCmp2 = Nominal
+Complain = Nominal
+Z_CostContact = Ratio
+Z_Revenue = Ratio
+Response = Nominal
+"""
