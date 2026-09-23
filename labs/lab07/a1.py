@@ -1,12 +1,12 @@
-import numpy as num
+import math
 
 def entropy(data):
-    values, counts = num.unique(data, return_counts=True)
+    total = len(data)
+    answer = 0
     
-    probabilities = counts / len(data)
+    for value in set(data):
+        count = data.count(value)
+        probability = count / total 
+        answer -= probability * math.log2(probability)  
+    return answer
     
-    entropy_value = 0
-    for p in probabilities:
-        entropy_value -= p * num.log2(p)
-    
-    return entropy_value
